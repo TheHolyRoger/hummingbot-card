@@ -1,0 +1,12 @@
+title: hummingbot-card
+views:
+  - title: Main
+    cards:
+      - type: entities
+        title: Static
+        entities:
+
+          - type: section
+            label: icon
+          - type: custom:hummingbot-card
+            icon: mdi:cog

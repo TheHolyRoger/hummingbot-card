@@ -1,0 +1,34 @@
+{
+  "name": "hummingbot-card",
+  "private": true,
+  "version": "0.0.1",
+  "type": "module",
+  "description": "",
+  "scripts": {
+    "build": "rollup -c",
+    "watch": "rollup -c --watch",
+    "update-card-tools": "npm uninstall card-tools && npm install thomasloven/lovelace-card-tools"
+  },
+  "repository": {
+    "type": "git",
+    "url": "github.com:TheHolyRoger/hass-hummingbot-card"
+  },
+  "keywords": [],
+  "author": "TheHolyRoger",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/core": "^7.21.3",
+    "@rollup/plugin-babel": "^6.0.3",
+    "@rollup/plugin-json": "^6.0.0",
+    "@rollup/plugin-node-resolve": "^15.0.1",
+    "@rollup/plugin-terser": "^0.4.0",
+    "rollup": "^3.20.2",
+    "rollup-plugin-typescript2": "^0.34.1",
+    "tslib": "^2.5.0",
+    "typescript": "^5.0.2"
+  },
+  "dependencies": {
+    "card-tools": "github:thomasloven/lovelace-card-tools",
+    "lit": "2.7.3"
+  }
+}
