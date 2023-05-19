@@ -338,28 +338,6 @@ class HummingbotCard extends LitElement {
     });
   }
 
-  // private _create_input_box(entityId, title) {
-  //   const el = createCard({
-  //     type: "entities",
-  //     entities: [
-  //       {
-  //         entity: entityId,
-  //         name: title
-  //       }
-  //     ]
-  //   });
-  //   el.hass = this._hass;
-
-  //   return el
-  // }
-
-  // _render_strategy_name_input(strategy_name_helper_id) {
-  //   if (this._card_strategy_name_input && this._strategy_name_input_id == strategy_name_helper_id) return this._card_strategy_name_input;
-
-  //   this._card_strategy_name_input = this._create_input_box(strategy_name_helper_id, "Strategy Name");
-  //   this._strategy_name_input_id = strategy_name_helper_id;
-  // }
-
   private _render_binary_sensor_box(title, stateObj) {
     const styles = styleMap({
       color: stateColourBinarySensor(stateObj),

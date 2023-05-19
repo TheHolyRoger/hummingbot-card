@@ -1,2 +1,2 @@
-# hummingbot-card
+# Hummingbot Card for Home Assistant
 
